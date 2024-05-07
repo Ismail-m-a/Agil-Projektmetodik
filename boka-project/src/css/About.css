@@ -1,0 +1,67 @@
+/* About Page Styles */
+.about-container {
+  background-color: #f5f5f7; /* Light grey background for a clean, modern look */
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  max-width: 800px;
+  margin: auto;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
+}
+
+.about-title {
+  margin-top: 50px;
+  color: #2a9d8f; /* Teal color for vibrant titles */
+  text-align: center;
+  animation: slideInFromLeft 1s ease-out;
+}
+
+.about-intro, .about-section p, .about-section ul {
+  color: #333; /* Dark grey text for better readability */
+  line-height: 1.6;
+}
+
+.about-section h2 {
+  color: #e76f51; /* A strong coral for section titles */
+  margin-top: 20px;
+}
+
+.about-section {
+  margin-top: 20px;
+  animation: fadeIn 1.5s ease-in;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-list {
+  padding: 8px 0;
+  border-left: 3px solid #264653; /* Dark blue accent line */
+  margin-left: 20px;
+  padding-left: 10px;
+  
+}
+
+/* Animations */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

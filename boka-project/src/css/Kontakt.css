@@ -1,0 +1,60 @@
+.kontakt-container {
+    max-width: 960px; /* Adjust width as necessary */
+    margin: auto;
+    padding: 40px 20px;
+    background-color: #f4f4f9; /* Light background for the container */
+    
+  }
+  /* Assuming this is part of your Kontakt.css or a general style sheet */
+.kontakt-container {
+  margin-top: 120px; /* Same as your header height or slightly more */
+}
+
+  
+  .header-title {
+    text-align: center;
+    color: #2c3e50; /* Dark blue for contrast */
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1); /* Subtle text shadow for depth */
+  }
+  
+  .kontakt-info {
+    color: #505050;
+    font-size: 16px;
+    padding-right: 20px; /* Ensures some space between columns */
+  }
+  
+  .kontakt-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Adds depth with shadow */
+  }
+  
+  .form-label {
+    color: #34495e;
+    font-weight: bold;
+  }
+  
+  .form-control, .form-control:focus {
+    background-color: #ffffff;
+    border: 1px solid #bdc3c7;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+  }
+  
+  .form-control:focus {
+    border-color: #3498db;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05), 0 0 8px rgba(52,152,219,0.6);
+  }
+  
+  button.variant-primary {
+    background-color: #3498db;
+    border: none;
+    color: white;
+  }
+  
+  button.variant-primary:hover {
+    background-color: #2980b9;
+  }
+  

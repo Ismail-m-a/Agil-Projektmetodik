@@ -1,0 +1,46 @@
+
+[
+    {
+        "id": 1,
+        "name": "Fönster puts",
+        "image": "windows.jpg",
+        "price": 500,
+        "description": "Fönster puts"
+    },
+    {
+        "id": 2,
+        "name": "Flyttstädning",
+        "image": "flyttstad.jpeg",
+        "price": 5000,
+        "description": "Flyttstädning"
+    },
+    {
+        "id": 3,
+        "name": "storstädning",
+        "image": "storstadning.jpeg",
+        "price": 10000,
+        "description": "Storstädning" 
+    },
+    {
+        "id": 4,
+        "name": "kontor",
+        "image": "kontorstad.jpg",
+        "price": 5000,
+        "description": "Kontorstädning"
+    },
+    {
+        "id": 5,
+        "name": "hemstädning",
+        "image": "hemstad2.jpg",
+        "price": 6000,
+        "description": "Hemstädning"
+    },
+    {
+        "id": 6,
+        "name": "Stora lokaler",
+        "image": "kontor2.jpg",
+        "price": 500,
+        "description": "Vi är experter på att städa lokaler"
+    }
+
+]

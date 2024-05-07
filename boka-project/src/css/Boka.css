@@ -1,0 +1,86 @@
+.boka-header {
+  background: linear-gradient(135deg, #6db9ef, #7ce08a);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #ffffff; /* Better visibility on a bright background */
+  animation: slideInFromLeft 1s ease-out;
+  margin-left: 10px;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.boka-title {
+  text-align: center;
+  color: #023e8a; /* A dark shade for better contrast */
+  margin-top: 100px;
+}
+
+/* Styling lists within boka-header to match the overall aesthetic */
+.boka-header ol {
+  list-style-type: none; /* Removes default list styling */
+  padding: 0;
+  margin-left: 20px; /* Slight indentation for aesthetics */
+}
+
+.boka-header li::before {
+  content: "✔"; /* Adds a check mark before each list item */
+  color: #023e8a; /* Matching dark shade */
+  font-weight: bold; /* Makes the check marks bold */
+  display: inline-block; 
+  width: 1em; /* Ensures consistent spacing */
+  margin-left: -1em; /* Adjust position to align nicely */
+}
+
+.boka-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: start;
+  
+}
+
+.boka-form {
+  background-color: #f8fafc; /* Light background for the form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control, .form-select {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #333;
+}
+
+button {
+  background-color: #023e8a;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #022c57; /* Darker blue on hover */
+}
+
+
+.ToastContainer__toast--success, .ToastContainer__toast--error {
+  font-size: 16px;
+}

@@ -1,0 +1,54 @@
+.faq-container {
+    
+    margin: auto;
+    padding: 40px 20px;
+    padding-top: 100px; /* Extra top padding */
+    background-color: #f4f4f9;
+  }
+  
+  .faq-header-section h1 {
+    font-size: 28px; /* Larger font size for the main title */
+    color: #0056b3; /* Stylish blue color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin-bottom: 10px; /* Space between title and subtitle */
+  }
+  
+  .faq-header-section p {
+    font-size: 16px;
+    color: #666; /* Dark grey for readable text */
+    margin-bottom: 20px; /* Adequate spacing before the FAQs start */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Light shadow for texture */
+  }
+  
+  .faq-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .faq-header:hover {
+    color: #3498db;
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 1200px; /* Adjusted width for larger screens */
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #e8eaf1;
+  }
+  
+  .card-body {
+    font-size: 16px;
+    color: #333;
+    background-color: #ffffff;
+    padding: 15px;
+  }
+  

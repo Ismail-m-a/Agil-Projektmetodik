@@ -1,0 +1,9 @@
+/* App.css */
+html {
+    scroll-behavior: smooth;
+}
+
+#services, #boka, #kontakt {
+    scroll-margin-top: 80px; /* Adjust the value to the height of your fixed header */
+}
+

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Adam",
+    "email": "kak@hotmail.com",
+    "address": "Kista cemtrum1",
+    "service": "hemstadning",
+    "housingType": "Lägenhet",
+    "date": "2024-05-10",
+    "time": "13:00",
+    "message": "Observera köket behöver mer städning."
+  },
+  {
+    "name": "Adam",
+    "email": "kak@hotmail.com",
+    "address": "Märsta centrum",
+    "service": "hemstadning",
+    "housingType": "Lägenhet",
+    "date": "2024-05-10",
+    "time": "11:15",
+    "message": "Köket behöver extra städning."
+  },
+  {
+    "name": "Adam",
+    "email": "kak@hotmail.com",
+    "address": "Kista centrum 1",
+    "service": "hemstadning",
+    "housingType": "Lägenhet",
+    "date": "2024-05-10",
+    "time": "13:30",
+    "message": "Köket behöver extra städning."
+  }
+]
